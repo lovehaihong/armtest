@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	fmt.Printf("add by Huang Haihong!");
 	os.Remove("./foo.db")
 
 	db, err := sql.Open("sqlite3", "./foo.db")
